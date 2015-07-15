@@ -10,7 +10,9 @@
 module.exports = function init(options){
   return function plugin(channel){
     return {
+      // ProLoser types in "ping"
       "ping": function(from, matches) {
+        // Response: "ProLoser: pong!"
         channel.say(from + ': pong!');
       }
     };
