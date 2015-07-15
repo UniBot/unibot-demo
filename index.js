@@ -10,6 +10,7 @@
  
 // Executed one time when bot loads
 module.exports = function init(options){
+ 
   // Executed for each channel plugin is activated on
   return function plugin(channel){
     
